@@ -3,6 +3,8 @@
     padding: 0;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Raleway&display=swap');
+
 body{
     background-color:hsl(257, 40%, 49%) ;
 }
@@ -24,8 +26,8 @@ body{
     z-index: 1;
     position:absolute;
     top: 0%;
-    margin: 20px;
-    padding: 12px 30px;
+    margin: 20px 0 5 3px;
+    padding: 12px 10px;
     width: 30%;
     height:auto;
 
@@ -46,7 +48,7 @@ body{
 .para1 {
     
     color:whitesmoke;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Roleway', sans-serif;
     font-size: 7vmax;
     display: flex;
     flex-direction: column;
@@ -59,7 +61,9 @@ body{
 #para2{
     font-size: 3vmax;
     margin-top:25px ;
-    font-style: italic;
+    font-weight: 5;
+    color: rgba(255, 255, 255, 0.637);
+   
 }
 
 /* .para2{
@@ -75,15 +79,52 @@ body{
 a{
     background-color: whitesmoke;
     text-decoration: none;
-    color: black;
+    
     width: 60vw;
     border-radius: 50px;
-    margin-top: 25px;
+    margin-top: 15px;
+    display: flex;
+    height: 8vmax;
+    justify-content: center;
+    align-items: center;
+
+    
+  
+}
+a:hover{
+    background-color: hsl(300, 69%, 71%);
+    
+}
+
+
+span{
+    font-size: 2.3vmax;
+    color:hsl(257, 40%, 49%) ;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.brands{
+    display: flex;
+    justify-content: space-around;
+    margin: 25%;
+    width: 50%;
+    
+}
+
+.fa{
+    width: 15px;
+    height:15px;
+    color: rgba(245, 245, 245, 0.774);
+    border: 0.5px solid whitesmoke;
+    border-radius: 50px;
+    
+    text-align:center;
     
   
 }
 
-span{
-    font-size: 3vmax;
-    
+.brands i{
+    text-align: center;
 }
+
