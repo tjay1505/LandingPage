@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:hsl(257, 40%, 49%) ;
+}
+
+.backimg{
+    display: flex;
+    
+   justify-content: center;
+   /* align-items: center;
+   align-content: center; */
+}
+
+.imgb{
+   width: 100%;
+   height: auto;
+   z-index: 0;
+}
+.logoimg{
+    z-index: 1;
+    position:absolute;
+    top: 0%;
+    margin: 25px;
+    padding: 26px;
+    width: 30%;
+    height:auto;
+
+}
